@@ -38,6 +38,8 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
+  let morze = [];
+ 
     for (let i = 0; i <= expr.length; i = i + 10) {
         let match = "";
         let kuku = [];
